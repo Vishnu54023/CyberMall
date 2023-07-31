@@ -1,0 +1,281 @@
+body{
+    /*background: black;*/
+}
+
+.custom-bg{
+    background: #673ab7!important;
+}
+
+.list-group-item.active{
+    background: #673ab7!important;
+    border-color: #673ab7!important;
+}
+.discount-label{
+    font-size: 14px!important;
+    font-style: italic!important;
+}
+
+.product-card:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+        
+}
+
+
+/*Toast*/
+#toast{
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+    
+}
+
+#toast.display{
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+    
+}
+
+@keyframes fadeIn{
+    from{
+        bottom: 0;
+        opacity: 0;
+    }
+    to{
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut{
+    from{
+        bottom: 30px;
+        opacity: 1;
+        
+    }
+    to{
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+/*************************************Search bar*************************************/
+.search-container {
+    /*display: flex;*/
+    /*justify-content: left;*/
+    margin-top: 1px;
+  }
+  
+  .search-container input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-container button {
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #2ecc99;
+  }
+  
+
+
+
+/****************************************footer*********************************************/
+/** {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    letter-spacing: -.2px;
+}
+
+html {
+    font-size: 62.5%;
+}*/
+
+
+.chalo {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #172337;
+    margin-top: 35px;
+}
+
+.mais {
+    width: 100%;
+}
+
+.mais {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.masu {
+    margin-left: 65px;
+    width: 90% !important;
+    padding-top: 40px;
+}
+
+.imarti {
+    flex: 1;
+}
+
+.siw {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.minu {
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.helo,
+.swag {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.swag {
+    border-left: 1px solid #454d5e;
+    padding: 0 25px;
+}
+
+.monaj {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.donaj {
+    font-style: normal;
+    color: #fff;
+    background-color: #172337;
+}
+
+.saru {
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.saru .kalu {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.saru p {
+    margin-bottom: 0;
+}
+
+.kalu p {
+
+    padding: 0;
+    line-height: 1.5;
+}
+
+.salo {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.helo {
+    margin-bottom: 10px;
+    padding-left: 14px;
+}
+
+.koea {
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;
+    margin-top: 40px;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sora {
+    color: #fff;
+    margin-left: 8px;
+}
+
+.sanu {
+    color: #fff;
+}
+
+.cont5 {
+    display: none;
+}
+
+.cont6 {
+    display: none;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+a,
+img {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+
+}
